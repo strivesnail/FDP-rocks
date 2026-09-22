@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+results/
+third_party/
+*.log
+/src/benchmark/rocksdb_bench
+/src/prefill/fill
+/ae/config.env

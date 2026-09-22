@@ -1,0 +1,29 @@
+{
+  "files": {
+    "phase1_uniform.bin": {
+      "bytes": 80000,
+      "sha256": "61c8e8b82288537fc9b54b6db4fb891ef92eab971c229bc1f84b9416d6933ba2"
+    },
+    "phase2_uniform.bin": {
+      "bytes": 160000,
+      "sha256": "c9403b15931b79ff1ce3535eb8701b3d4fe1110e488dc697f48eb0f54e26c552"
+    },
+    "phase2_zipf_s0.5.bin": {
+      "bytes": 160000,
+      "sha256": "ab2c50da435ca1b852c3aab3bb1126e4f1dc8b7c7414c4320e84dd57b2aaa769"
+    },
+    "phase2_zipf_s1.5.bin": {
+      "bytes": 160000,
+      "sha256": "a07869d45960bb7b9c5c5b00f9ef4d787a4230682b1c7c0b53fa23baaf65c864"
+    },
+    "phase2_zipf_s3.bin": {
+      "bytes": 160000,
+      "sha256": "7b3701464afce84bfe5eb0ca89b5d730e5e75eddc30305f3b2a3c33f5e8544c1"
+    }
+  },
+  "format": "little-endian uint64 keys",
+  "keyspace": 10000,
+  "phase1_keys": 10000,
+  "phase2_keys": 20000,
+  "seed": 42
+}

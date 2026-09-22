@@ -1,0 +1,8 @@
+.git
+.venv
+results
+third_party
+src/benchmark/rocksdb_bench
+src/prefill/fill
+__pycache__
+*.pyc

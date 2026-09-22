@@ -1,0 +1,47 @@
+Collected (UTC): 2026-09-22T01:27:45Z
+
+[Operating system]
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+Linux fdp-vm 6.10.0-fdp-enabler-g5b8dbac4391d-dirty #11 SMP PREEMPT_DYNAMIC Thu Nov  6 02:19:55 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+
+[CPU]
+Architecture: x86_64
+Model name: Intel(R) Xeon(R) CPU E5-2695 v4 @ 2.10GHz
+
+[Memory]
+               total        used        free      shared  buff/cache   available
+Mem:            62Gi       1.4Gi       1.3Gi       1.1Gi        60Gi        59Gi
+Swap:          4.0Gi       146Mi       3.9Gi
+
+[Toolchain]
+g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0
+cmake version 3.22.1
+Python 3.10.12
+nvme version 2.5 (git 2.5)
+libnvme version 1.5 (git 1.5)
+
+[Filesystem]
+SOURCE       TARGET            FSTYPE OPTIONS
+/dev/nvme0n1 /home/usr/fdp-ssd ext4   rw,relatime,discard
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/nvme0n1    125G  114G  5.5G  96% /home/usr/fdp-ssd
+
+[NVMe controller, serial number omitted]
+{
+  "mn": "FEMU Cylon NVMe Flexible Data Placement ",
+  "fr": "1.0     ",
+  "vid": 7453,
+  "ssvid": 6900
+}
+NVMe status: Invalid SGL Segment Descriptor: The command includes an invalid SGL Last Segment or SGL Segment descriptor(0xd)

@@ -1,0 +1,5 @@
+workload,rocksdb_nofdp_kops,rocksdb_fdp_kops,fdp_rocks_kops
+Uniform,31.5,34.1,44.8
+Zipf_s_0.5,33.3,35.5,46.1
+Zipf_s_1.5,48.8,51.9,63.7
+Zipf_s_3,66.6,70.8,78.9
