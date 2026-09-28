@@ -3,7 +3,7 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 DEST="${ROOT}/third_party/rocksdb"
-REVISION="f3fc05908517e4b3346fb690d3a97d69877fec50"
+REVISION="9043994d90c0c1e5321eb312bf239e3625f6d6d5"
 
 if test -e "${DEST}"; then
   printf 'ERROR: destination already exists: %s\n' "${DEST}" >&2

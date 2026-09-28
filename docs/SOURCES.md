@@ -4,7 +4,7 @@
 
 - Repository: `https://github.com/strivesnail/rocksdb.git`
 - Branch: `artifact-clean`
-- Revision: `f3fc05908517e4b3346fb690d3a97d69877fec50`
+- Revision: `9043994d90c0c1e5321eb312bf239e3625f6d6d5`
 - Evaluated code base: `33016b94e4cfb73b5a56126b47c203a25c70d46a`
 - Upstream base: `47344a0fe`
 - Comparison:
